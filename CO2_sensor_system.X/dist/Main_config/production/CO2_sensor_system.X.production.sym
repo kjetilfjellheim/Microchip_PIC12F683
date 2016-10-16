@@ -208,8 +208,8 @@ config 400E 400F CONFIG 400E 0
 cstackCOMMON 70 7B COMMON 70 1
 cstackBANK0 20 3F BANK0 20 1
 %locals
-dist/Main_config/production\MG_811_co2_measurement.X.production.obj
-C:\Users\Kjetil\AppData\Local\Temp\s84k.
+dist/Main_config/production\CO2_sensor_system.X.production.obj
+C:\Users\Kjetil\AppData\Local\Temp\sdh0.
 517 B 0 CODE 0
 520 B 0 CODE 0
 526 B 0 CODE 0

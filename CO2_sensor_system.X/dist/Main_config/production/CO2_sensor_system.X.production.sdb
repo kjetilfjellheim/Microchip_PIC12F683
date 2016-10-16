@@ -21,9 +21,9 @@
 [v _eecpymem eecpymem `(v  1 e 1 0 ]
 "39
 [v _memcpyee memcpyee `(v  1 e 1 0 ]
-"13 D:\code\githubrepos\Microchip_PIC12F683\MG_811_co2_measurement.X\interrupts.c
+"13 D:\code\githubrepos\Microchip_PIC12F683\CO2_sensor_system.X\interrupts.c
 [v _isr isr `II(v  1 e 1 0 ]
-"27 D:\code\githubrepos\Microchip_PIC12F683\MG_811_co2_measurement.X\main.c
+"27 D:\code\githubrepos\Microchip_PIC12F683\CO2_sensor_system.X\main.c
 [v _main main `(v  1 e 1 0 ]
 "64
 [v _getSensorMeasurement getSensorMeasurement `(d  1 e 3 0 ]
@@ -31,9 +31,9 @@
 [v _getResultLed getResultLed `(ui  1 e 2 0 ]
 "111
 [v _setResultLeds setResultLeds `(v  1 e 1 0 ]
-"13 D:\code\githubrepos\Microchip_PIC12F683\MG_811_co2_measurement.X\system.c
+"13 D:\code\githubrepos\Microchip_PIC12F683\CO2_sensor_system.X\system.c
 [v _ConfigureOscillator ConfigureOscillator `(v  1 e 1 0 ]
-"14 D:\code\githubrepos\Microchip_PIC12F683\MG_811_co2_measurement.X\user.c
+"14 D:\code\githubrepos\Microchip_PIC12F683\CO2_sensor_system.X\user.c
 [v _InitApp InitApp `(v  1 e 1 0 ]
 "761 C:\Program Files (x86)\Microchip\xc8\v1.38\include\pic12f683.h
 [v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
@@ -69,7 +69,7 @@
 "940
 [u S116 . 1 `S109 1 . 1 0 ]
 [v _TRISIObits TRISIObits `VES116  1 e 1 @133 ]
-"27 D:\code\githubrepos\Microchip_PIC12F683\MG_811_co2_measurement.X\main.c
+"27 D:\code\githubrepos\Microchip_PIC12F683\CO2_sensor_system.X\main.c
 [v _main main `(v  1 e 1 0 ]
 {
 "48
@@ -123,7 +123,7 @@
 [v ___awdiv@dividend dividend `i  1 p 2 10 ]
 "42
 } 0
-"77 D:\code\githubrepos\Microchip_PIC12F683\MG_811_co2_measurement.X\main.c
+"77 D:\code\githubrepos\Microchip_PIC12F683\CO2_sensor_system.X\main.c
 [v _getResultLed getResultLed `(ui  1 e 2 0 ]
 {
 [v getResultLed@voltage voltage `d  1 p 3 21 ]
@@ -158,17 +158,17 @@
 [v ___ftpack@sign sign `uc  1 p 1 6 ]
 "86
 } 0
-"14 D:\code\githubrepos\Microchip_PIC12F683\MG_811_co2_measurement.X\user.c
+"14 D:\code\githubrepos\Microchip_PIC12F683\CO2_sensor_system.X\user.c
 [v _InitApp InitApp `(v  1 e 1 0 ]
 {
 "38
 } 0
-"13 D:\code\githubrepos\Microchip_PIC12F683\MG_811_co2_measurement.X\system.c
+"13 D:\code\githubrepos\Microchip_PIC12F683\CO2_sensor_system.X\system.c
 [v _ConfigureOscillator ConfigureOscillator `(v  1 e 1 0 ]
 {
 "16
 } 0
-"13 D:\code\githubrepos\Microchip_PIC12F683\MG_811_co2_measurement.X\interrupts.c
+"13 D:\code\githubrepos\Microchip_PIC12F683\CO2_sensor_system.X\interrupts.c
 [v _isr isr `II(v  1 e 1 0 ]
 {
 "16

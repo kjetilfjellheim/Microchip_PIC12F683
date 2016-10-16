@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=MG_811_co2_measurement.X
+PROJECTNAME=CO2_sensor_system.X
 
 # Active Configuration
 DEFAULTCONF=Main_config

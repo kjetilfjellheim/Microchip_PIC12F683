@@ -10,9 +10,9 @@ CND_CONF=Main_config
 CND_DISTDIR=dist
 TMPDIR=build/${CND_CONF}/${IMAGE_TYPE}/tmp-packaging
 TMPDIRNAME=tmp-packaging
-OUTPUT_PATH=dist/${CND_CONF}/${IMAGE_TYPE}/MG_811_co2_measurement.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
-OUTPUT_BASENAME=MG_811_co2_measurement.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
-PACKAGE_TOP_DIR=mg811co2measurement.x/
+OUTPUT_PATH=dist/${CND_CONF}/${IMAGE_TYPE}/CO2_sensor_system.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+OUTPUT_BASENAME=CO2_sensor_system.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+PACKAGE_TOP_DIR=co2sensorsystem.x/
 
 # Functions
 function checkReturnCode
@@ -57,15 +57,15 @@ mkdir -p ${TMPDIR}
 
 # Copy files and create directories and links
 cd "${TOP}"
-makeDirectory ${TMPDIR}/mg811co2measurement.x/bin
+makeDirectory ${TMPDIR}/co2sensorsystem.x/bin
 copyFileToTmpDir "${OUTPUT_PATH}" "${TMPDIR}/${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}" 0755
 
 
 # Generate tar file
 cd "${TOP}"
-rm -f ${CND_DISTDIR}/${CND_CONF}/package/mg811co2measurement.x.tar
+rm -f ${CND_DISTDIR}/${CND_CONF}/package/co2sensorsystem.x.tar
 cd ${TMPDIR}
-tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/package/mg811co2measurement.x.tar *
+tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/package/co2sensorsystem.x.tar *
 checkReturnCode
 
 # Cleanup

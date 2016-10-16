@@ -3,10 +3,10 @@ Microchip MPLAB XC8 Compiler V1.38 ()
 Linker command line:
 
 -W-3 --edf=C:\Program Files (x86)\Microchip\xc8\v1.38\dat\en_msgs.txt -cs \
-  -h+dist/Main_config/production\MG_811_co2_measurement.X.production.sym \
-  --cmf=dist/Main_config/production\MG_811_co2_measurement.X.production.cmf \
-  -z -Q12F683 -oC:\Users\Kjetil\AppData\Local\Temp\s84k.2 \
-  -Mdist/Main_config/production/MG_811_co2_measurement.X.production.map -E1 \
+  -h+dist/Main_config/production\CO2_sensor_system.X.production.sym \
+  --cmf=dist/Main_config/production\CO2_sensor_system.X.production.cmf -z \
+  -Q12F683 -oC:\Users\Kjetil\AppData\Local\Temp\sdh0.2 \
+  -Mdist/Main_config/production/CO2_sensor_system.X.production.map -E1 \
   -ver=XC8 -ASTACK=040h-06fh -pstack=STACK -ACODE=00h-07FFh \
   -ASTRCODE=00h-07FFh -ASTRING=00h-0FFhx8 -ACONST=00h-0FFhx8 \
   -AENTRY=00h-0FFhx8 -ACOMMON=070h-07Fh -ABANK0=020h-06Fh -ABANK1=0A0h-0BFh \
@@ -16,8 +16,8 @@ Linker command line:
   -pconfig=CONFIG -DCONFIG=2 -AIDLOC=02000h-02003h -pidloc=IDLOC -DIDLOC=2 \
   -AEEDATA=00h-0FFh/02100h -peeprom_data=EEDATA -DEEDATA=2 -DCODE=2 \
   -DSTRCODE=2 -DSTRING=2 -DCONST=2 -DENTRY=2 -k \
-  C:\Users\Kjetil\AppData\Local\Temp\s84k.obj \
-  dist/Main_config/production\MG_811_co2_measurement.X.production.obj 
+  C:\Users\Kjetil\AppData\Local\Temp\sdh0.obj \
+  dist/Main_config/production\CO2_sensor_system.X.production.obj 
 
 Object code version is 3.11
 
@@ -26,11 +26,11 @@ Machine type is 12F683
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\Kjetil\AppData\Local\Temp\s84k.obj
+C:\Users\Kjetil\AppData\Local\Temp\sdh0.obj
                 end_init                              A        A        1        8       0
                 reset_vec                             0        0        1        0       0
                 config                             2007     2007        1     400E       0
-dist/Main_config/production\MG_811_co2_measurement.X.production.obj
+dist/Main_config/production\CO2_sensor_system.X.production.obj
                 cinit                                 B        B        2        8       0
                 intentry                              4        4        6        8       0
                 text12                              289      289        7        8       0
